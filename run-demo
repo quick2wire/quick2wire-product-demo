@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+
+PYTHONPATH=`dirname $0`/libs/quick2wire-python-api "$@"
